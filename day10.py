@@ -30,7 +30,7 @@ def part2():
     file = open("input_day10.txt", "r")
     output = []
     for index in range(240):
-        output.append(".")
+        output.append(" ")
     # after first cycle must be index 0
     cycles = -1
     value = 1
@@ -52,8 +52,9 @@ def part2():
     for index in range(240):
         if index % 40 == 0 and index > 0:
             print()
+        if index % 5 == 4:
+            print("\t", end="")
         print(output[index], end="")
-    print("\n")
 
     file.close()
     return
