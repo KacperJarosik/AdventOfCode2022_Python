@@ -6,7 +6,7 @@ def part1():
     draw_points = 3
     # lose points -> 0
     my_points = 0
-    file = open("input_day2.txt", "r")
+    file = open("input_day02.txt", "r")
     for line in file:
         if line[0] == "A":
             if line[2] == "X":
@@ -41,7 +41,7 @@ def part2():
     draw_points = 3
     # lose points -> 0
     my_points = 0
-    file = open("input_day2.txt", "r")
+    file = open("input_day02.txt", "r")
     for line in file:
         if line[0] == "A":
             if line[2] == "X":

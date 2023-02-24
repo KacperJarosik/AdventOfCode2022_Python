@@ -1,7 +1,7 @@
 def part1():
     max_equipment_calory = 0
     curent_equipment_calory = 0
-    file = open("input_day1.txt", "r")
+    file = open("input_day01.txt", "r")
     for line in file:
         if line == "\n":
             if curent_equipment_calory > max_equipment_calory:
@@ -18,7 +18,7 @@ def part2():
     max2_equipment_calory = 0
     max3_equipment_calory = 0
     curent_equipment_calory = 0
-    file = open("input_day1.txt", "r")
+    file = open("input_day01.txt", "r")
     for line in file:
         if line == "\n":
             if curent_equipment_calory > max1_equipment_calory:

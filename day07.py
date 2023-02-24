@@ -1,5 +1,5 @@
 def part1():
-    file = open("input_day7.txt", "r")
+    file = open("input_day07.txt", "r")
     commands = file.readlines()
 
     dirs = {"/home": 0}
@@ -55,7 +55,7 @@ def part1():
 
 
 def part2():
-    file = open("input_day7.txt", "r")
+    file = open("input_day07.txt", "r")
     commands = file.readlines()
 
     dirs = {"/home": 0}

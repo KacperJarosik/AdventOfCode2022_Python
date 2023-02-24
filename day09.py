@@ -1,5 +1,5 @@
 def part1():
-    file = open("input_day9.txt", "r")
+    file = open("input_day09.txt", "r")
     # (x,y) coordinate system
     tail_positions = [[0, 0]]
     head_position = [0, 0]
@@ -87,7 +87,7 @@ def part2():
             tail_positions[tail].remove([xp, yp])
         tail_positions[tail].append([xp, yp])
 
-    file = open("input_day9.txt", "r")
+    file = open("input_day09.txt", "r")
     # (x,y) coordinate system
     tail_positions = [[[0, 0]], [[0, 0]], [[0, 0]], [[0, 0]], [[0, 0]],
                       [[0, 0]], [[0, 0]], [[0, 0]], [[0, 0]]]

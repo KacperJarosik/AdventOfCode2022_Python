@@ -1,5 +1,5 @@
 def part1():
-    file = open("input_day8.txt", "r")
+    file = open("input_day08.txt", "r")
     forest = []
     amount_of_visible_trees = 0
     for line in file.readlines():
@@ -52,7 +52,7 @@ def part1():
 
 
 def part2():
-    file = open("input_day8.txt", "r")
+    file = open("input_day08.txt", "r")
     forest = []
     value_max = 0
     for line in file.readlines():

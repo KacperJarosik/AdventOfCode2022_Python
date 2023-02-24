@@ -1,6 +1,6 @@
 def part1():
     account_compartment_within_the_compartment = 0
-    file = open("input_day4.txt", "r")
+    file = open("input_day04.txt", "r")
     for line in file:
         if line[-1] == "\n":
             line = line[:-1]
@@ -19,7 +19,7 @@ def part1():
 
 def part2():
     account_compartment_within_the_compartment = 0
-    file = open("input_day4.txt", "r")
+    file = open("input_day04.txt", "r")
     for line in file:
         if line[-1] == "\n":
             line = line[:-1]

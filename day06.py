@@ -1,6 +1,6 @@
 def part1():
     last_4_characters = []
-    file = open("input_day6.txt", "r")
+    file = open("input_day06.txt", "r")
     line = file.readline()
     file.close()
     output = 0
@@ -24,7 +24,7 @@ def part1():
 
 def part2():
     last_14_characters = []
-    file = open("input_day6.txt", "r")
+    file = open("input_day06.txt", "r")
     line = file.readline()
     file.close()
     output = 0

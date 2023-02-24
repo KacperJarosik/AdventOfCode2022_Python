@@ -5,7 +5,7 @@ def part1():
                   'x': 24, 'y': 25, 'z': 26, 'A': 27, 'B': 28, 'C': 29, 'D': 30, 'E': 31, 'F': 32, 'G': 33, 'H': 34,
                   'I': 35, 'J': 36, 'K': 37, 'L': 38, 'M': 39, 'N': 40, 'O': 41, 'P': 42, 'Q': 43, 'R': 44, 'S': 45,
                   'T': 46, 'U': 47, 'V': 48, 'W': 49, 'X': 50, 'Y': 51, 'Z': 52}
-    file = open("input_day3.txt", "r")
+    file = open("input_day03.txt", "r")
     for line in file:
         middle = int(len(line) / 2)
         rucksack_first_compartment = line[:middle]
@@ -30,7 +30,7 @@ def part2():
                   'x': 24, 'y': 25, 'z': 26, 'A': 27, 'B': 28, 'C': 29, 'D': 30, 'E': 31, 'F': 32, 'G': 33, 'H': 34,
                   'I': 35, 'J': 36, 'K': 37, 'L': 38, 'M': 39, 'N': 40, 'O': 41, 'P': 42, 'Q': 43, 'R': 44, 'S': 45,
                   'T': 46, 'U': 47, 'V': 48, 'W': 49, 'X': 50, 'Y': 51, 'Z': 52}
-    file = open("input_day3.txt", "r")
+    file = open("input_day03.txt", "r")
     for rucksack in file:
         if rucksack[-1] == '\n':
             rucksack = rucksack[:-1]

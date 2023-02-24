@@ -3,7 +3,7 @@ def part1():
     output = ""
     end_move_between_stacks = 0
     end_stack_reading = 0
-    file = open("input_day5.txt", "r")
+    file = open("input_day05.txt", "r")
     for line in file:
         if line[0] == 'm':
             if line[-1] == '\n':
@@ -41,7 +41,7 @@ def part2():
     output = ""
     end_move_between_stacks = 0
     end_stack_reading = 0
-    file = open("input_day5.txt", "r")
+    file = open("input_day05.txt", "r")
     for line in file.readlines():
         if line[0] == 'm':
             if line[-1] == '\n':
