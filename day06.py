@@ -19,7 +19,6 @@ def part1():
                 output = index
         if different_letters == 1:
             return output
-    return
 
 
 def part2():
@@ -43,7 +42,6 @@ def part2():
                 output = index
         if different_letters == 1:
             return output
-    return
 
 
 if __name__ == "__main__":
